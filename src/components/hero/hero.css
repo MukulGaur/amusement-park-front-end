@@ -1,4 +1,4 @@
-.hero-image{
+/* .hero-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -21,4 +21,20 @@
     margin-bottom: 2rem;
     cursor: default;
     font-style: italic;
-}
+} */
+
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+  }
