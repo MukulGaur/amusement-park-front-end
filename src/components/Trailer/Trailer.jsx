@@ -1,5 +1,5 @@
 import React from 'react'
-import './gridImages.css'
+import './trailer.css'
 
 const TomorrowlandVideo = () => {
 
